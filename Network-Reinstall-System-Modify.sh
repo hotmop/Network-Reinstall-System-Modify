@@ -37,7 +37,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest CentOS_7 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://odc.mirrors.getcdn.net/Operating-System_VvuH8KEgcrS0HtzN/CentOS/CentOS_7.X_NetInstallation.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/MeowLove/CentOS_7.X_NetInstallation.vhd.gz'
 fi
 
 if [ $1 = '-CentOS_6' ]
@@ -45,7 +45,15 @@ then
 	echo -e "\033[33m You have chosen to install the latest CentOS_6 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -c 6.10 -v 64 -a
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -c 6.10 -v 64 -a
+fi
+
+if [ $1 = '-Debian_10' ]
+then
+	echo -e "\033[33m You have chosen to install the latest Debian_10 \033[0m"
+	echo -e "\n"
+	sleep 2s
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -d 10 -v 64 -a
 fi
 
 if [ $1 = '-Debian_9' ]
@@ -53,7 +61,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Debian_9 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -d 9 -v 64 -a
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -d 9 -v 64 -a
 fi
 
 if [ $1 = '-Debian_8' ]
@@ -61,7 +69,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Debian_8 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -d 8 -v 64 -a
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -d 8 -v 64 -a
 fi
 
 if [ $1 = '-Debian_7' ]
@@ -69,7 +77,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Debian_7 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -d 7 -v 64 -a
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -d 7 -v 64 -a
 fi
 
 if [ $1 = '-Ubuntu_18.04' ]
@@ -77,7 +85,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Ubuntu_18.04 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -u 18.04 -v 64 -a
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -u 18.04 -v 64 -a
 fi
 
 if [ $1 = '-Ubuntu_16.04' ]
@@ -85,7 +93,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Ubuntu_16.04 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -u 16.04 -v 64 -a
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -u 16.04 -v 64 -a
 fi
 
 if [ $1 = '-Ubuntu_14.04' ]
@@ -93,7 +101,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Ubuntu_14.04 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -u 14.04 -v 64 -a
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -u 14.04 -v 64 -a
 fi
 
 if [ $1 = '-Windows_Server_2019' ]
@@ -101,7 +109,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2019 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://odc.mirrors.getcdn.net/Operating-System_VvuH8KEgcrS0HtzN/Windows/Disk_Windows_DD/Disk_Windows_Server_2019_DataCenter_CN.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/MeowLove/Disk_Windows_Server_2019_DataCenter_CN.vhd.gz'
 fi
 
 if [ $1 = '-Windows_Server_2016' ]
@@ -109,7 +117,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2016 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://odc.mirrors.getcdn.net/Operating-System_VvuH8KEgcrS0HtzN/Windows/Disk_Windows_DD/Disk_Windows_Server_2016_DataCenter_CN.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/MeowLove/Disk_Windows_Server_2016_DataCenter_CN.vhd.gz'
 fi
 
 if [ $1 = '-Windows_Server_2012R2' ]
@@ -117,7 +125,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2012R2 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://odc.mirrors.getcdn.net/Operating-System_VvuH8KEgcrS0HtzN/Windows/Disk_Windows_DD/Disk_Windows_Server_2012R2_DataCenter_CN.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/MeowLove/Disk_Windows_Server_2012R2_DataCenter_CN.vhd.gz'
 fi
 
 if [ $1 = '-Windows_Server_2008R2' ]
@@ -125,7 +133,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2008R2 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://odc.mirrors.getcdn.net/Operating-System_VvuH8KEgcrS0HtzN/Windows/Disk_Windows_DD/Disk_Windows_Server_2008R2_DataCenter_CN.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/MeowLove/Disk_Windows_Server_2008R2_DataCenter_CN.vhd.gz'
 fi
 
 if [ $1 = '-Windows_7_Vienna' ]
@@ -133,7 +141,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_7_Vienna \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://odc.mirrors.getcdn.net/Operating-System_VvuH8KEgcrS0HtzN/Windows/Disk_Windows_DD/Disk_Windows_7_Vienna_Ultimate_CN.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/MeowLove/Disk_Windows_7_Vienna_Ultimate_CN.vhd.gz'
 fi
 
 if [ $1 = '-Windows_Server_2003' ]
@@ -141,7 +149,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2003 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://odc.mirrors.getcdn.net/Operating-System_VvuH8KEgcrS0HtzN/Windows/Disk_Windows_DD/Disk_Windows_Server_2003_DataCenter_CN.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/MeowLove/Disk_Windows_Server_2003_DataCenter_CN.vhd.gz'
 fi
 
 if [ $1 = '-CXT_Bare-metal_System_Deployment_Platform' ]
@@ -149,7 +157,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest CXT_Bare-metal_System_Deployment_Platform \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://odc.mirrors.getcdn.net/Operating-System_VvuH8KEgcrS0HtzN/CXT-System/CXT_Bare-metal_System_Deployment_Platform.vhd.gz'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/MeowLove/CXT_Bare-metal_System_Deployment_Platform.vhd.gz'
 fi
 
 if [ $1 = '-DD' ]
@@ -157,7 +165,7 @@ then
 	echo -e "\033[33m You have chosen to install the DD package provided by you \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd $2
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd $2
 fi
 
 
