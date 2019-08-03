@@ -161,7 +161,6 @@ wget -N --no-check-certificate https://github.com/veip007/Network-Reinstall-Syst
 ### GD直连获取方法
 1.下载脚本
 ```
-bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
 ```
 2.使用方法
