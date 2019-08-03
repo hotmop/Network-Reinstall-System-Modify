@@ -48,17 +48,22 @@ wget -N --no-check-certificate https://github.com/veip007/Network-Reinstall-Syst
 ./Network-Reinstall-System-Modify.sh -Debian_7
 ```
 
-⑥. 一键网络重装纯净Ubuntu 18.04（推荐）
+⑥. 一键网络重装纯净Debian 10
+``` bash
+./Network-Reinstall-System-Modify.sh -Debian_10
+```
+
+⑦. 一键网络重装纯净Ubuntu 18.04（推荐）
 ``` bash
 ./Network-Reinstall-System-Modify.sh -Ubuntu_18.04
 ```
 
-⑦. 一键网络重装纯净Ubuntu 16.04
+⑧. 一键网络重装纯净Ubuntu 16.04
 ``` bash
 ./Network-Reinstall-System-Modify.sh -Ubuntu_16.04
 ```
 
-⑧. 一键网络重装纯净Ubuntu 14.04
+⑨. 一键网络重装纯净Ubuntu 14.04
 ``` bash
 ./Network-Reinstall-System-Modify.sh -Ubuntu_14.04
 ```
