@@ -157,3 +157,22 @@ wget -N --no-check-certificate https://github.com/veip007/Network-Reinstall-Syst
 4. 所有镜像托管于Open Disk CDN，你应该访问以下文章了解镜像，使用时应校对MD5和SHA1是否正确。
 
 5. 一些没有DHCP的VPS/云平台/独立服务器，安装后无法访问网络，你需要登陆VNC/IPIM/KVM后手动进行网卡IP配置。
+
+### GD直连获取方法
+1.下载脚本
+```
+bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
+```
+2.使用方法
+```
+#Work with share link/使用分享链接方式
+gdlink 'https://drive.google.com/open?id=0B8SvBXZ3I5QMcUduTMJEanRkMzQ'
+
+#Work with file id/使用文件ID方式
+gdlink '0B8SvBXZ3I5QMcUduTMJEanRkMzQ'
+ 
+#download with share link/使用分享链接方式直接使用wget下载链接
+##可将其中./download改成自己需要的文件名或文件绝对路径
+gdlink 'https://drive.google.com/open?id=0B8SvBXZ3I5QMcUduTMJEanRkMzQ' |xargs -n1 wget -c -O ./download
+```
