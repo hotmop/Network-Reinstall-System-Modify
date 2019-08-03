@@ -121,12 +121,23 @@ wget -N --no-check-certificate https://github.com/veip007/Network-Reinstall-Syst
 *如果win7 DD不上请换这个版本
 
 ``` bash
-./Network-Reinstall-System-Modify.sh -DD "https://doc-04-08-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/9i477hu740oekckims96q6b9ehimg3rl/1548338400000/17128039988164006870/*/1iXgBX-awPos99cFdCAgHDZ2YpP2ivKU0?e=download"
+./Network-Reinstall-System-Modify.sh -DD "https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/Windows7x86-Chinese.vhd.gz"
 ```
 ```
 账户：Administrator
 密码：Windows7x86-Chinese
 ```
+
+*或者萌咖的win7
+
+``` bash
+./Network-Reinstall-System-Modify.sh -DD "https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/moeclub/win7emb_x86.tar.gz"
+```
+```
+账户：Administrator
+密码：Vicer
+```
+
 
 恭喜，你已经完成了系统重装，享受当下的美好
 当您执行完上面的2行命令，你的服务器将开始网络重装纯净系统。在完成安装前，您将无法进行连接管理。
