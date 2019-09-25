@@ -37,7 +37,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest CentOS_8 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/:u:/g/personal/admin_veip_onmicrosoft_com/EYe0fKjd83tDsfU3TC-haZwBvlTCBJIKTwm_UrSUv0U54Q?download=1'
+	wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/veip007/Network-Reinstall-System-Modify/master/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/:u:/g/personal/admin_veip_onmicrosoft_com/EYe0fKjd83tDsfU3TC-haZwBvlTCBJIKTwm_UrSUv0U54Q?download=1'
 fi
 
 if [ $1 = '-CentOS_7' ]
