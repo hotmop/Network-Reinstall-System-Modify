@@ -23,6 +23,17 @@ wget -N --no-check-certificate https://github.com/veip007/Network-Reinstall-Syst
 #### 2. 安装系统（任选其一）
 【安装Linux系统】
 
+①. 一键网络重装纯净CentOS 8（推荐）
+
+【配置要求】CentOS 8 官方要求安装和运行内存不低于2GB，推荐4GB以上。
+通过DD网络重装方案，目前测试通过可在512MB内存机器上运行。
+但是使用低于官方要求的配置，那卡顿可能也属正常，建议使用高配机器。
+
+【使用建议】当前CentOS 8还处于8.0版本，配套环境不够稳定，如供您需要在生产环境使用，
+``` bash
+./Network-Reinstall-System-Modify.sh -CentOS_8
+``` 
+
 ①. 一键网络重装纯净CentOS 7（推荐）
 ``` bash
 ./Network-Reinstall-System-Modify.sh -CentOS_7
