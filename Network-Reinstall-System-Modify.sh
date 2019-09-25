@@ -21,7 +21,7 @@ echo -e "\n\n\n"
 clear
 echo -e "\n"
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo -e "\033[33m Network-Reinstall-System-Modify Tools V2.1.0 2019/06/26 \033[0m"
+echo -e "\033[33m Network-Reinstall-System-Modify Tools V2.2.0 2019/09/24 \033[0m"
 echo -e "\033[33m [Magic Modify] Reinstall the system (any Windows / Linux) requires only network and one click \033[0m"
 echo -e "\033[33m System requirements: Any Linux system with GRUB or GRUB2, recommended CentOS7/Debian9/Ubuntu18.04 \033[0m"
 echo -e "\n"
@@ -31,6 +31,14 @@ echo "--------------------------------------------------------------------------
 echo -e "\n"
 sleep 5s
 
+
+if [ $1 = '-CentOS_8' ]
+then
+	echo -e "\033[33m You have chosen to install the latest CentOS_8 \033[0m"
+	echo -e "\n"
+	sleep 2s
+	wget --no-check-certificate -qO Core_Install.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/CoreShell/Core_Install.sh' && bash Core_Install.sh -dd 'https://veip-my.sharepoint.com/:u:/g/personal/admin_veip_onmicrosoft_com/EYe0fKjd83tDsfU3TC-haZwBvlTCBJIKTwm_UrSUv0U54Q?download=1'
+fi
 
 if [ $1 = '-CentOS_7' ]
 then
